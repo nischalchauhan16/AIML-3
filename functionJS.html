@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function demo(){
+            console.log("Hello JS")
+        }
+        demo();
+
+        function demo1(text){
+             console.log("Hello" + text);
+        }
+    </script>
+</body>
+<script>
+    function call(a,b=9){
+           console.log("addition of two number is" + (a+b));
+    }
+    demo1("React");
+    call(12);
+    demo();
+
+
+    let msg=function(){
+        console.log("hello Advanced JS");
+    };
+    msg();
+    let msg1=()=>console.log("Hello function as an arrow");
+    msg1();
+
+    let add=(a,b)=>{
+        console.log("First number is" +a);
+        console.log("Second number is"+b);
+        console.log("addition of two number is" (a+b));
+
+    }
+    add(4,5);
+
+(function(){
+    console.log("IIFE in JS");
+
+})();
+
+function mul (callback){
+    var num1=10;
+    console.log("First value is" +num1);
+    var num2=20;
+    console.log("Second value is" +num2);
+    var res=num1*num2;66666666666666666666666
+
+    callback(res);
+}
+function result(res){
+   console.log("Multiplication is" +res);
+}
+ 
+
+ 
+</script>
+</html>
